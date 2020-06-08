@@ -1,0 +1,15 @@
+<student>
+    <ime-prezime>
+        <ime>Mihael</ime>
+        <prezime>Anđel</prezime>
+    </ime-prezime>
+    <status>
+        <studiranje>redoviti</studiranje>
+        <godina>4</godina>
+        <prosjek-ocjena>3.25</prosjek-ocjena>
+    </status>
+    <informacije>
+        <datum-rodenja>05.15.1997.</datum-rodenja>
+        <vrijeme-rodenja>08:02:15</vrijeme-rodenja>
+    </informacije>
+</student>

@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="ime-prezime">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ime" type="xs:string"/>
+                            <xs:element name="prezime" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="status">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="studiranje" type="xs:string"/>
+                            <xs:element name="godina" type="xs:integer"/>
+                            <xs:element name="prosjek-ocjena" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="informacije">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="datum-rodenja" type="xs:date"/>
+                            <xs:element name="vrijeme-rodenja" type="xs:time"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
