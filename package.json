@@ -7,7 +7,7 @@
     "author": "Mihael Anđel",
     "license": "ISC",
     "dependencies": {
-        "moment": "^2.26.0",
+        "moment": "^2.29.2",
         "xml2js": "^0.4.23"
     }
 }
